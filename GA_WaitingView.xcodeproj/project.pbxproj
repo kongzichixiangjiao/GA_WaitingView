@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCBBFA4B1C47B11100A28E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBFA4A1C47B11100A28E96 /* AppDelegate.swift */; };
+		DCBBFA4D1C47B11100A28E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBFA4C1C47B11100A28E96 /* ViewController.swift */; };
+		DCBBFA501C47B11100A28E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBBFA4E1C47B11100A28E96 /* Main.storyboard */; };
+		DCBBFA521C47B11100A28E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBBFA511C47B11100A28E96 /* Assets.xcassets */; };
+		DCBBFA551C47B11100A28E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBBFA531C47B11100A28E96 /* LaunchScreen.storyboard */; };
+		DCBBFA601C47B11100A28E96 /* GA_WaitingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBFA5F1C47B11100A28E96 /* GA_WaitingViewTests.swift */; };
+		DCBBFA6B1C47B11100A28E96 /* GA_WaitingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBFA6A1C47B11100A28E96 /* GA_WaitingViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBBFA5C1C47B11100A28E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBBFA3F1C47B11000A28E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBBFA461C47B11000A28E96;
+			remoteInfo = GA_WaitingView;
+		};
+		DCBBFA671C47B11100A28E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBBFA3F1C47B11000A28E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBBFA461C47B11000A28E96;
+			remoteInfo = GA_WaitingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCBBFA471C47B11000A28E96 /* GA_WaitingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_WaitingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBBFA4A1C47B11100A28E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCBBFA4C1C47B11100A28E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCBBFA4F1C47B11100A28E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBBFA511C47B11100A28E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCBBFA541C47B11100A28E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCBBFA561C47B11100A28E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBBFA5B1C47B11100A28E96 /* GA_WaitingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_WaitingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBBFA5F1C47B11100A28E96 /* GA_WaitingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_WaitingViewTests.swift; sourceTree = "<group>"; };
+		DCBBFA611C47B11100A28E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBBFA661C47B11100A28E96 /* GA_WaitingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_WaitingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBBFA6A1C47B11100A28E96 /* GA_WaitingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_WaitingViewUITests.swift; sourceTree = "<group>"; };
+		DCBBFA6C1C47B11100A28E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBBFA441C47B11000A28E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA581C47B11100A28E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA631C47B11100A28E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCBBFA3E1C47B11000A28E96 = {
+			isa = PBXGroup;
+			children = (
+				DCBBFA491C47B11000A28E96 /* GA_WaitingView */,
+				DCBBFA5E1C47B11100A28E96 /* GA_WaitingViewTests */,
+				DCBBFA691C47B11100A28E96 /* GA_WaitingViewUITests */,
+				DCBBFA481C47B11000A28E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBBFA481C47B11000A28E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBFA471C47B11000A28E96 /* GA_WaitingView.app */,
+				DCBBFA5B1C47B11100A28E96 /* GA_WaitingViewTests.xctest */,
+				DCBBFA661C47B11100A28E96 /* GA_WaitingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCBBFA491C47B11000A28E96 /* GA_WaitingView */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBFA4A1C47B11100A28E96 /* AppDelegate.swift */,
+				DCBBFA4C1C47B11100A28E96 /* ViewController.swift */,
+				DCBBFA4E1C47B11100A28E96 /* Main.storyboard */,
+				DCBBFA511C47B11100A28E96 /* Assets.xcassets */,
+				DCBBFA531C47B11100A28E96 /* LaunchScreen.storyboard */,
+				DCBBFA561C47B11100A28E96 /* Info.plist */,
+			);
+			path = GA_WaitingView;
+			sourceTree = "<group>";
+		};
+		DCBBFA5E1C47B11100A28E96 /* GA_WaitingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBFA5F1C47B11100A28E96 /* GA_WaitingViewTests.swift */,
+				DCBBFA611C47B11100A28E96 /* Info.plist */,
+			);
+			path = GA_WaitingViewTests;
+			sourceTree = "<group>";
+		};
+		DCBBFA691C47B11100A28E96 /* GA_WaitingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBFA6A1C47B11100A28E96 /* GA_WaitingViewUITests.swift */,
+				DCBBFA6C1C47B11100A28E96 /* Info.plist */,
+			);
+			path = GA_WaitingViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBBFA461C47B11000A28E96 /* GA_WaitingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBBFA6F1C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingView" */;
+			buildPhases = (
+				DCBBFA431C47B11000A28E96 /* Sources */,
+				DCBBFA441C47B11000A28E96 /* Frameworks */,
+				DCBBFA451C47B11000A28E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GA_WaitingView;
+			productName = GA_WaitingView;
+			productReference = DCBBFA471C47B11000A28E96 /* GA_WaitingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCBBFA5A1C47B11100A28E96 /* GA_WaitingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBBFA721C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingViewTests" */;
+			buildPhases = (
+				DCBBFA571C47B11100A28E96 /* Sources */,
+				DCBBFA581C47B11100A28E96 /* Frameworks */,
+				DCBBFA591C47B11100A28E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBBFA5D1C47B11100A28E96 /* PBXTargetDependency */,
+			);
+			name = GA_WaitingViewTests;
+			productName = GA_WaitingViewTests;
+			productReference = DCBBFA5B1C47B11100A28E96 /* GA_WaitingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCBBFA651C47B11100A28E96 /* GA_WaitingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBBFA751C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingViewUITests" */;
+			buildPhases = (
+				DCBBFA621C47B11100A28E96 /* Sources */,
+				DCBBFA631C47B11100A28E96 /* Frameworks */,
+				DCBBFA641C47B11100A28E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBBFA681C47B11100A28E96 /* PBXTargetDependency */,
+			);
+			name = GA_WaitingViewUITests;
+			productName = GA_WaitingViewUITests;
+			productReference = DCBBFA661C47B11100A28E96 /* GA_WaitingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBBFA3F1C47B11000A28E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = houjianan;
+				TargetAttributes = {
+					DCBBFA461C47B11000A28E96 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DCBBFA5A1C47B11100A28E96 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCBBFA461C47B11000A28E96;
+					};
+					DCBBFA651C47B11100A28E96 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCBBFA461C47B11000A28E96;
+					};
+				};
+			};
+			buildConfigurationList = DCBBFA421C47B11000A28E96 /* Build configuration list for PBXProject "GA_WaitingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCBBFA3E1C47B11000A28E96;
+			productRefGroup = DCBBFA481C47B11000A28E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBBFA461C47B11000A28E96 /* GA_WaitingView */,
+				DCBBFA5A1C47B11100A28E96 /* GA_WaitingViewTests */,
+				DCBBFA651C47B11100A28E96 /* GA_WaitingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBBFA451C47B11000A28E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBBFA551C47B11100A28E96 /* LaunchScreen.storyboard in Resources */,
+				DCBBFA521C47B11100A28E96 /* Assets.xcassets in Resources */,
+				DCBBFA501C47B11100A28E96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA591C47B11100A28E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA641C47B11100A28E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBBFA431C47B11000A28E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBBFA4D1C47B11100A28E96 /* ViewController.swift in Sources */,
+				DCBBFA4B1C47B11100A28E96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA571C47B11100A28E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBBFA601C47B11100A28E96 /* GA_WaitingViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBBFA621C47B11100A28E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBBFA6B1C47B11100A28E96 /* GA_WaitingViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCBBFA5D1C47B11100A28E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBBFA461C47B11000A28E96 /* GA_WaitingView */;
+			targetProxy = DCBBFA5C1C47B11100A28E96 /* PBXContainerItemProxy */;
+		};
+		DCBBFA681C47B11100A28E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBBFA461C47B11000A28E96 /* GA_WaitingView */;
+			targetProxy = DCBBFA671C47B11100A28E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCBBFA4E1C47B11100A28E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBBFA4F1C47B11100A28E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBBFA531C47B11100A28E96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBBFA541C47B11100A28E96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBBFA6D1C47B11100A28E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCBBFA6E1C47B11100A28E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBBFA701C47B11100A28E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_WaitingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCBBFA711C47B11100A28E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_WaitingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCBBFA731C47B11100A28E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_WaitingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_WaitingView.app/GA_WaitingView";
+			};
+			name = Debug;
+		};
+		DCBBFA741C47B11100A28E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_WaitingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_WaitingView.app/GA_WaitingView";
+			};
+			name = Release;
+		};
+		DCBBFA761C47B11100A28E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_WaitingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_WaitingView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCBBFA771C47B11100A28E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_WaitingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-WaitingViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_WaitingView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBBFA421C47B11000A28E96 /* Build configuration list for PBXProject "GA_WaitingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBFA6D1C47B11100A28E96 /* Debug */,
+				DCBBFA6E1C47B11100A28E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBBFA6F1C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBFA701C47B11100A28E96 /* Debug */,
+				DCBBFA711C47B11100A28E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCBBFA721C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBFA731C47B11100A28E96 /* Debug */,
+				DCBBFA741C47B11100A28E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCBBFA751C47B11100A28E96 /* Build configuration list for PBXNativeTarget "GA_WaitingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBBFA761C47B11100A28E96 /* Debug */,
+				DCBBFA771C47B11100A28E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCBBFA3F1C47B11000A28E96 /* Project object */;
+}
